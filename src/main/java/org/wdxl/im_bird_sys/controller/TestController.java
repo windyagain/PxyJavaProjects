@@ -41,7 +41,7 @@ public class TestController {
         ContentAndBtnText contentAndBtnText = textConfigs.get("zh-Hans");
 
         System.out.println("---> " + contentAndBtnText.toString());
-
+        System.out.println("add test for dev branch");
         return "test";
     }
 }
